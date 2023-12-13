@@ -14,7 +14,7 @@ test('testing function translate with success', () => {
     expect(result).toBe('You have no rest.');
 });
 
-test('testing function translate with success', () => {
+test('testing function translate with error message', () => {
     const result = erRep.translate(4);
     expect(result).toBe('Unknown error');
 });
